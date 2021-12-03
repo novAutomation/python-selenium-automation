@@ -11,4 +11,4 @@ def verify_sign_in_page(context):
     actual_header = context.driver.find_element(By.CSS_SELECTOR, "h1.a-spacing-small").text
     assert expected_header == actual_header, f'Error! Expected text: {expected_header}, but actual text: {actual_header}'
 
-    context.driver.quit()
+
