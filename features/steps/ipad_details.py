@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from behave import *
+from behave import then, when, given
 
 
 @then('Ipad details shown')

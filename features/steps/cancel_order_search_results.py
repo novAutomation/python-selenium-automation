@@ -1,6 +1,6 @@
 
 from selenium.webdriver.common.by import By
-from behave import *
+from behave import when, given, then
 
 
 @then('Verify that Cancel Items or Orders text is present')

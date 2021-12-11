@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from behave import *
+from behave import given, when, then
 
 
 @then('User verifies that Amazon Cart is empty')

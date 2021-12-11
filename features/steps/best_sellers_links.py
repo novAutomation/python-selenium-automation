@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from behave import *
+from behave import given, when, then
 
 
 BEST_SELLERS_LINKS = (By.CSS_SELECTOR, 'div#nav-xshop-container a')
