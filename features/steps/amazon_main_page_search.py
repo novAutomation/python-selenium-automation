@@ -8,7 +8,7 @@ IPAD_IMAGE = (By.XPATH, "//div[@class='a-section aok-relative s-image-fixed-heig
 
 @given('Open Amazon page')
 def open_amazon_page(context):
-    context.driver.get('https://www.amazon.com')
+    context.app.homePage.open()
 
 
 @when('Search for table')
@@ -23,7 +23,7 @@ def click_search_icon(context):
 
 @when('Click Orders')
 def click_orders(context):
-    context.driver.find_element(By.ID, 'nav-orders').click()
+    context.app.headerComponent.click_orders()
 
 
 @when('Click on Cart icon')
